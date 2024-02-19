@@ -1,0 +1,35 @@
+.service-section{
+    background-color: #fbf2db;
+    padding: 8.9rem 0;
+    text-align: start;
+}
+
+.testimonals{
+    height: 600px;
+    color: white;
+    background-image: url('./logo1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.testimonals h3{
+    width: 100%;
+}
+
+
+.swiper-button-next {
+    color: white;
+}
+
+.swiper-button-prev{
+    color: white;
+}
+
+@media (min-width:400px){
+    .testimonals img{
+        height: 100px;
+    }
+    .testimonals h3{
+        width: 50%;
+    }
+}

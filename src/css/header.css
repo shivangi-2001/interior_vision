@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #fef0db;
+    padding: 0 0.94rem;
+}
+
+.navbar-brand{
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: 1.08rem;
+    color: #f44811;
+}
+
+.nav-link:hover {
+    color: #fa9474
+}
+
+#scrollspy1 a{
+    color: #fd815b;
+    font-size: 0.94rem;
+    font-weight: bold;
+}

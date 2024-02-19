@@ -1,0 +1,12 @@
+#root {
+  min-width: 280px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fbf2db5a;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before{
+  --mdb-breadcrumb-divider-color:'#f44a11'
+}

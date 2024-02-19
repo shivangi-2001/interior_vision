@@ -1,0 +1,10 @@
+.menu{
+    background-color: #f0d38e;
+    padding: 0.56rem 1rem;
+    display: flex;
+    font-weight: 200;
+    font-size: 1.267rem;
+    letter-spacing: 0.18rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}

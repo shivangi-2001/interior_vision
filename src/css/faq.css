@@ -1,0 +1,26 @@
+.accordion-item{
+    background-color: transparent;
+}
+
+.accordion-button{
+    background-color: #ecd2c6;
+    color: #000;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 2rem;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid bisque;
+    box-shadow: inset 0 calc(-1*var(--mdb-accordion-border-width)) 0 var(--mdb-accordion-border-color);
+}

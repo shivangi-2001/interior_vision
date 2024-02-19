@@ -1,0 +1,53 @@
+.customCard{
+    background-color: #fce7b2;
+}
+
+.customCard i{
+    font-size: 4rem;
+    color: #ffb909;
+}
+
+.section3{
+    background-color: #ecd2c6;
+    padding: 8.9rem 0;
+    margin-top: 6.4rem;
+}
+
+.section3 input{
+    padding: 0.78rem 1.58rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.045rem;
+    background-color: #ecd2c6;
+}
+
+.section3 input:focus{
+    background-color: #ecd2c6;
+    border: 1px solid beige;
+}
+
+.form-control.form-control-lg{
+    border-radius: 3rem;
+
+}
+
+.section3 textarea{
+    background-color: #ecd2c6;
+    border: 1px solid beige;
+    padding: 20px 25px;
+}
+
+.section3 textarea:focus{
+    background-color: #ecd2c6;
+    border: 1px solid beige;
+}
+
+.section3 button{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding: 16px 30px;
+}
+
+.section4{
+    height: 480px;
+    object-fit: cover;
+}

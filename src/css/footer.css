@@ -1,0 +1,21 @@
+footer{
+    background-color: #fbf2db;
+    color: #fa9474;
+}
+footer img{
+    box-shadow: none;
+}
+
+footer a{
+    color: #f44811;
+}
+
+
+footer a:hover{
+    color: #f44a1180;
+}
+
+
+footer h5{
+    color: #f44811;
+}

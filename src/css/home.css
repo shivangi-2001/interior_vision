@@ -1,0 +1,86 @@
+.display-1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.p-text {
+    font-size: 1.167rem;
+    color: #000000b1;
+    letter-spacing: 0.12rem;
+}
+
+.button {
+    background-color: #f44a11a5;
+    color: #fef1dc;
+    border-radius: 40px;
+}
+
+.button:hover {
+    background-color: #f44a11;
+    color: #fff;
+}
+
+.thirdSection {
+    margin: 7rem 0;
+    background-image: url('../assets/photo1.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    border-left: 1px solid #f44a11;
+    padding: 0 1.78rem;
+    scrollbar-width: 3rem;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+.scrollspy-example::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrollspy-example::-webkit-scrollbar-thumb {
+    background-color: #f4400d;
+    border-radius: 33px;
+}
+
+/* For Firefox */
+.scrollspy-example {
+    scrollbar-color: #f4400d #ffffff;
+    /* Set your desired orange color and background color */
+}
+
+
+.offerText {
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 400;
+    text-align: justify;
+}
+
+img{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem;
+}
+
+
+.last{
+    background-image: url('../assets/photo12.jpg');
+    background-repeat: no-repeat;
+    background-position: 45% 59%;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
