@@ -32,7 +32,7 @@ const Home = () => {
                         <img src={photo1} alt="" width={'100%'} height={400} style={{ borderRadius: '0.8rem' }} />
                     </div>
                     <div className="col-md-6 d-flex flex-column justify-content-center">
-                        <div className="text-end" style={{ width: '80%' }}>
+                        <div className="text-md-end text-sm-center mx-auto" style={{ width: '80%' }}>
                             <p className='p-text'>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis aperiam commodi itaque dignissimos eum, nam consectetur repellat voluptate, id architecto laboriosam a ipsam maxime. Amet nam quasi est hic nesciunt? Amet nam quasi est hic nesciunt
                             </p>
@@ -132,16 +132,17 @@ const Home = () => {
             <div className="container p-5" style={{ margin: '8rem auto' }}>
                 <div className="w-100 w-sm-50">
                     <h5 style={{ color: '#ffb915' }}>Celebrating Excellence</h5>
-                    <h2 className="display-1 fw-bold" style={{color:'#f44811'}}>Awards And Achievements</h2>
+                    <h2 className="display-1" style={{color:'#f44811'}}>Awards And Achievements</h2>
                     <p className='my-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis illum quos sunt dolor vitae? Assumenda facere ullam nemo aspernatur tenetur rerum ipsa cum a ad, minima dolorem eum explicabo earum.</p>
 
                 </div>
+                <br />
                 <div className="row" style={{margin:'6rem 0rem'}}>
                     <div className="col-md-3">
                         <img src={awards} height={'120px'}  style={{boxShadow:'none', margin:'auto'}}alt="" />
                     </div>
                     <div className="col-md-3 p-0">
-                        <h3 className="display-5 text-start">
+                        <h3 className="display-6 text-md-start text-sm-center">
                             Excellence in Residential Interior Design
                         </h3>
                     </div>
@@ -156,7 +157,7 @@ const Home = () => {
                         <img src={awards} height={'120px'}  style={{boxShadow:'none', margin:'auto'}}alt="" />
                     </div>
                     <div className="col-md-3 p-0">
-                        <h3 className="display-5 text-start">
+                        <h3 className="display-6 text-md-start text-sm-center">
                             Best Residential Deisgn
                         </h3>
                     </div>
@@ -171,7 +172,7 @@ const Home = () => {
                         <img src={awards} height={'120px'}  style={{boxShadow:'none', margin:'auto'}}alt="" />
                     </div>
                     <div className="col-md-3 p-0">
-                        <h3 className="display-5 text-start">
+                        <h3 className="display-6 text-md-start text-sm-center">
                             Most Sustainable Interior Deisgn
                         </h3>
                     </div>
@@ -186,7 +187,7 @@ const Home = () => {
                         <img src={awards} height={'120px'}  style={{boxShadow:'none', margin:'auto'}}alt="" />
                     </div>
                     <div className="col-md-3 p-0">
-                        <h3 className="display-5 text-start">
+                        <h3 className="display-6 text-md-start text-sm-center">
                             Best Minimalist Design
                         </h3>
                     </div>

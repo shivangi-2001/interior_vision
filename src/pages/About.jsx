@@ -49,7 +49,7 @@ const AboutUs = () => {
                     <div className="col-md-6">
                         <img src={photo3} alt="" width={'80%'} height={600} className='rounded-3' />
                     </div>
-                    <div className="col-md-6 text-end">
+                    <div className="col-md-6 text-md-end text-sm-center">
                         <h3 className="display-3 fw-bold mb-4" style={{ color: '#f44811' }}>Project Overview</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit enim accusamus iusto, modi quis corrupti tenetur sequi nisi optio quas architecto quasi eaque? Dignissimos laudantium architecto dolorum optio culpa.
@@ -88,7 +88,7 @@ const AboutUs = () => {
                 <h5 className=" text-center fw-bold" style={{ color: '#fa9474' }}>
                     What Sets Us Apart
                 </h5>
-                <h3 className="display-1 text-center fw-bold" style={{ color: '#f44811' }}>
+                <h3 className="display-1 text-center" style={{ color: '#f44811' }}>
                     Why Choose Us
                 </h3>
                 <div className="row mt-5 g-5">
@@ -219,10 +219,10 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <div className="container p-5" style={{ margin: '8rem auto' }}>
+            <div className="container" style={{ margin: '8rem auto' }}>
                 <div className="w-100 w-sm-50">
                     <h5 style={{ color: '#ffb915' }}>Celebrating Excellence</h5>
-                    <h2 className="display-1 fw-bold" style={{ color: '#f44811' }}>Awards And Achievements</h2>
+                    <h2 className=" text-sm-start text-md-center" style={{ color: '#f44811' }}>Awards And Achievements</h2>
                     <p className='my-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis illum quos sunt dolor vitae? Assumenda facere ullam nemo aspernatur tenetur rerum ipsa cum a ad, minima dolorem eum explicabo earum.</p>
 
                 </div>
